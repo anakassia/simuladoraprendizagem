@@ -1,5 +1,5 @@
 <?php
-	class Relz_Cicl {
+	class relz_cicl {
 	private $idRcc;
 	private $pontuacaoAlcancadaRcc;
 	
