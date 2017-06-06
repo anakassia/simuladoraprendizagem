@@ -1,24 +1,17 @@
 <?php
-	class Comp_Nort {
+	class comp_nort {
 	private $idCnr;
 	private $nomeCnr;
 	
-	public function getIdCnr(){
-		return $this->idCnr;
+	public function __set($atrib, $value){
+		$this -> $atrib = $valeu;
 	}
 	
-	public function getNomeCnr(){
-		return $this->nomeCnr;
+	public function __get($atrib){
+		return $this -> $atrib;
 	}
-	
+		
 
-	public function setIdCnr(){
-		return $this->idCnr;
-	}
-	
-	public function setNomeCnr(){
-		return $this->nomeCnr;
-	}
 	
 
 ?>
